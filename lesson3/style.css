@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #F5F5F5;
+}
+.wraperBlock{
+    background-color: #F5F5F5;
+    width: 1402px;
+    margin: 0 auto;
+}
+header{
+    width: 435px;
+    margin: 0 auto;
+    padding-top: 102px;
+}
+header h2 {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 22px;
+}
+.line {
+    width: 64px;
+    height: 2px;
+    background-color: #FF8B38;
+    margin: 0 auto;
+    margin-bottom: 22px;
+}
+header p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    text-align: center;
+    padding-bottom: 81px;
+}
+.container{
+    width: 1118px;
+    margin: 0 auto;
+    padding-bottom: 111px;
+    }
+
+ul li{
+    list-style-type: none;
+}
+.basic {
+    display: inline-block;
+    width: 343px;
+    text-align: center;
+}
+.professional {
+    display: inline-block;
+    width: 343px;
+    margin: 0 40px;
+    text-align: center;
+}
+.enterprise{
+    display: inline-block;
+    width: 343px;
+    text-align: center;
+}
+.headBox {
+    font-weight:normal;
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom:17px;
+}
+.dollars{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 1px;
+    padding: 38px 0px;
+}
+
+.correct{
+    background-color: #333333;
+    color: #fff;
+}
+.comments{
+    color: #ffffffb3;
+    margin-top: 1px;
+    font-style: italic;
+    font-size: 14px;
+    padding: 13px 0px;
+}
+.underLine{
+    height: 5px;
+    background: #FF8B38;
+}
+.orangeBox{
+    background: #FF8B38;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 8px 0px;
+}
+.plainText{
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+    color: #86878B;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    padding: 8px 0px;
+}   
+.fonImages{
+    background: linear-gradient(
+        rgba(51, 51, 51, 0.58), 
+        rgba(51, 51, 51, 0.58)), 
+        url('images/city.png');
+    background-size: cover;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+}
+.fonBlock{
+    width: 417px;
+    margin: 0px auto;
+    padding-top: 63px;
+    padding-bottom: 63px;
+}
+.fonBlock h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 22px;
+}
+.lineBlock{
+    width: 64px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.fonBlock p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 22px;
+    padding-bottom: 38px;
+}
+.font{
+    font-family: 'Raleway', sans-serif;
+}
+.button {
+    width: 134px;
+    height: 42px;
+    border: #fff solid 1px;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 auto;
+    padding: 11px 0px;
+}
+.button:hover{
+    border: solid 1px #FF8B38;
+    color: #FF8B38;
+    cursor: pointer;
+}
